@@ -8,23 +8,15 @@ font-family: 'Roboto', sans-serif; */
     --text-color: #B6B6B6;
     --background-color: #FFF;
 }
-
-ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-a{
-    text-decoration: none;
-}
-h1, h2, h3, h4, h5, h6, p{
-    margin: 0;
-}
 body{
-    margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 400;
+}
+.conteiner{
+    width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 .header{
     padding-top: 17px;
@@ -54,7 +46,8 @@ body{
     text-align: center;
     text-transform: uppercase;
     font-variant: all-small-caps;
-    margin-bottom: 40px;
+    margin-top:20px;
+    margin-bottom: 38px;
     color: var(--title-color);
 }
 .img{
@@ -110,5 +103,69 @@ body{
 }
 .footer-link{
     color: var(--hover-color);
-    
+}
+.footer-input{
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 300;
+    padding: 12px 145px 11px 10px;
+    border: 1px solid var(--text-color);
+}
+.footer-button{
+    color: var(--background-color);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    font-variant: all-small-caps;
+    background-color: var(--logo-color);
+    padding: 11px 38px 12px 38px;
+    border: none;
+    margin-left: -4px;
+    cursor: pointer;
+}
+.navigation-list{
+    display: flex;
+}
+.navigation-item{
+    margin-left: 55px;
+}
+.header-wrap{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.service-list{
+    display: flex;
+    flex-wrap: wrap;justify-content: space-between;
+}
+.service-item{
+    width: 335px;
+    margin-bottom: 100px;
+    display: flex;
+
+}
+.service-img{
+    width: 37px;
+    height: 37px;
+    margin-right: 18px;
+}
+.team-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.team-img{
+    margin-top: 27px;
+    margin-bottom: 30px;
+}
+.team-position{
+    margin-bottom: 80px;
+}
+.footer-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.service{
+    padding-top: 68px;
 }

@@ -7,11 +7,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&family=Roboto:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header class="header">
-        <a class="header-logo" href="#">MoGo</a>
+        <div class="conteiner header-wrap">
+            <a class="header-logo" href="#">MoGo</a>
         <nav class="navigation">
             <ul class="navigation-list">
                 <li class="navigation-item">
@@ -31,46 +34,63 @@
                 </li>
             </ul>
         </nav>
+        </div>
     </header>
     <main class="main">
         <section class="service">
-            <p class="name">We work with</p>
+            <div class="conteiner">
+                <p class="name">We work with</p>
             <h2 class="title">Amazing Services</h2>
             <ul class="service-list">
                 <li class="service-item">
                     <img class="service-img" src="./img/alarm.png" alt="alarm">
-                    <h3 class="service-title">photography</h3>
+                    <div>
+                        <h3 class="service-title">photography</h3>
                     <p class="service-name">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    </div>
+                    
                 </li>
                 <li class="service-item">
                     <img class="service-img"  src="./img/bargarph.png" alt="bargarph">
-                    <h3 class="service-title"> photography</h3>
+                    <div>
+                        <h3 class="service-title">photography</h3>
                     <p class="service-name">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    </div>
                 </li>
                 <li class="service-item">
                     <img class="service-img"  src="./img/display.png" alt="display">
-                    <h3 class="service-title"> photography</h3>
+                    <div>
+                        <h3 class="service-title">photography</h3>
                     <p class="service-name">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    </div>
                 </li>
                 <li class="service-item">
                     <img class="service-img"  src="./img/paper.png" alt="paper">
-                    <h3 class="service-title"> photography</h3>
+                    <div>
+                        <h3 class="service-title">photography</h3>
                     <p class="service-name">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    </div>
                 </li>
                 <li class="service-item">
                     <img class="service-img"  src="./img/home.png" alt="home">
-                    <h3 class="service-title"> photography</h3>
+                    <div>
+                        <h3 class="service-title">photography</h3>
                     <p class="service-name">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    </div>
                 </li>
                 <li class="service-item">
                     <img class="service-img"  src="./img/digital-marketing.png" alt="digital-marketing">
-                    <h3 class="service-title"> photography</h3>
+                    <div>
+                        <h3 class="service-title">photography</h3>
                     <p class="service-name">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    </div>
                 </li>
             </ul>
+            </div>
         </section>
         <section class="team">
-            <p class="name">We work with</p>
+            <div class="conteiner">
+                <p class="name">We work with</p>
             <h2 class="title">Amazing Services</h2>
             <p class="team-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
             <ul class="team-list">
@@ -90,14 +110,17 @@
                     <p class="team-position">Developer</p>
                 </li>
             </ul>
+            </div>
         </section>
     </main>
     <footer class="footer">
-        <p class="footer-text">© 2016 MoGo free PSD template by <a class="footer-link" href="#">Laaqiq</a></p>
+        <div class=" conteiner footer-wrap">
+            <p class="footer-text">© 2016 MoGo free PSD template by <a class="footer-link" href="#">Laaqiq</a></p>
         <form class="footer-form">
             <input class="footer-input" type="email" placeholder="Your Email...">
             <button class="footer-button">Subscribe</button>
         </form>
+        </div>
     </footer>
 </body>
 </html>
