@@ -169,3 +169,25 @@ align-items: center;
 .service{
     padding-top: 68px;
 }
+.current:hover:after{
+    content: "";
+   background-color: #F38181;
+   height: 3px;
+   width: 100%;
+   display: inline-block;
+}
+.current::after{
+    content: "";
+    background-color: var(--logo-color);
+    height: 3px;
+    width: 100%;
+    display: inline-block;
+}
+.title::after{
+    content: "";
+    width: 60px;
+height: 4px;
+background-color: #F38181;
+display: block;
+margin: 40px auto;
+}
